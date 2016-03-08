@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963529711BEB671400F93A22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963529701BEB671400F93A22 /* AppDelegate.swift */; };
+		963529731BEB671400F93A22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963529721BEB671400F93A22 /* ViewController.swift */; };
+		963529761BEB671400F93A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963529741BEB671400F93A22 /* Main.storyboard */; };
+		963529781BEB671400F93A22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963529771BEB671400F93A22 /* Images.xcassets */; };
+		9635297B1BEB671400F93A22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963529791BEB671400F93A22 /* LaunchScreen.xib */; };
+		963529871BEB671400F93A22 /* TaarakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963529861BEB671400F93A22 /* TaarakTests.swift */; };
+		963529911BEB69B600F93A22 /* picshare.png in Resources */ = {isa = PBXBuildFile; fileRef = 963529901BEB69B600F93A22 /* picshare.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963529811BEB671400F93A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963529631BEB671400F93A22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9635296A1BEB671400F93A22;
+			remoteInfo = Taarak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9635296B1BEB671400F93A22 /* Taarak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taarak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9635296F1BEB671400F93A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963529701BEB671400F93A22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963529721BEB671400F93A22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963529751BEB671400F93A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963529771BEB671400F93A22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9635297A1BEB671400F93A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		963529801BEB671400F93A22 /* TaarakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaarakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		963529851BEB671400F93A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963529861BEB671400F93A22 /* TaarakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaarakTests.swift; sourceTree = "<group>"; };
+		963529901BEB69B600F93A22 /* picshare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picshare.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963529681BEB671400F93A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9635297D1BEB671400F93A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963529621BEB671400F93A22 = {
+			isa = PBXGroup;
+			children = (
+				9635296D1BEB671400F93A22 /* Taarak */,
+				963529831BEB671400F93A22 /* TaarakTests */,
+				9635296C1BEB671400F93A22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9635296C1BEB671400F93A22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9635296B1BEB671400F93A22 /* Taarak.app */,
+				963529801BEB671400F93A22 /* TaarakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9635296D1BEB671400F93A22 /* Taarak */ = {
+			isa = PBXGroup;
+			children = (
+				963529901BEB69B600F93A22 /* picshare.png */,
+				963529701BEB671400F93A22 /* AppDelegate.swift */,
+				963529721BEB671400F93A22 /* ViewController.swift */,
+				963529741BEB671400F93A22 /* Main.storyboard */,
+				963529771BEB671400F93A22 /* Images.xcassets */,
+				963529791BEB671400F93A22 /* LaunchScreen.xib */,
+				9635296E1BEB671400F93A22 /* Supporting Files */,
+			);
+			path = Taarak;
+			sourceTree = "<group>";
+		};
+		9635296E1BEB671400F93A22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9635296F1BEB671400F93A22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		963529831BEB671400F93A22 /* TaarakTests */ = {
+			isa = PBXGroup;
+			children = (
+				963529861BEB671400F93A22 /* TaarakTests.swift */,
+				963529841BEB671400F93A22 /* Supporting Files */,
+			);
+			path = TaarakTests;
+			sourceTree = "<group>";
+		};
+		963529841BEB671400F93A22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				963529851BEB671400F93A22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9635296A1BEB671400F93A22 /* Taarak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9635298A1BEB671400F93A22 /* Build configuration list for PBXNativeTarget "Taarak" */;
+			buildPhases = (
+				963529671BEB671400F93A22 /* Sources */,
+				963529681BEB671400F93A22 /* Frameworks */,
+				963529691BEB671400F93A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taarak;
+			productName = Taarak;
+			productReference = 9635296B1BEB671400F93A22 /* Taarak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9635297F1BEB671400F93A22 /* TaarakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9635298D1BEB671400F93A22 /* Build configuration list for PBXNativeTarget "TaarakTests" */;
+			buildPhases = (
+				9635297C1BEB671400F93A22 /* Sources */,
+				9635297D1BEB671400F93A22 /* Frameworks */,
+				9635297E1BEB671400F93A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963529821BEB671400F93A22 /* PBXTargetDependency */,
+			);
+			name = TaarakTests;
+			productName = TaarakTests;
+			productReference = 963529801BEB671400F93A22 /* TaarakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963529631BEB671400F93A22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Adithya Bharadwaj";
+				TargetAttributes = {
+					9635296A1BEB671400F93A22 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9635297F1BEB671400F93A22 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9635296A1BEB671400F93A22;
+					};
+				};
+			};
+			buildConfigurationList = 963529661BEB671400F93A22 /* Build configuration list for PBXProject "Taarak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963529621BEB671400F93A22;
+			productRefGroup = 9635296C1BEB671400F93A22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9635296A1BEB671400F93A22 /* Taarak */,
+				9635297F1BEB671400F93A22 /* TaarakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963529691BEB671400F93A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963529761BEB671400F93A22 /* Main.storyboard in Resources */,
+				9635297B1BEB671400F93A22 /* LaunchScreen.xib in Resources */,
+				963529911BEB69B600F93A22 /* picshare.png in Resources */,
+				963529781BEB671400F93A22 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9635297E1BEB671400F93A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963529671BEB671400F93A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963529731BEB671400F93A22 /* ViewController.swift in Sources */,
+				963529711BEB671400F93A22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9635297C1BEB671400F93A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963529871BEB671400F93A22 /* TaarakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963529821BEB671400F93A22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9635296A1BEB671400F93A22 /* Taarak */;
+			targetProxy = 963529811BEB671400F93A22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963529741BEB671400F93A22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963529751BEB671400F93A22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963529791BEB671400F93A22 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9635297A1BEB671400F93A22 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963529881BEB671400F93A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963529891BEB671400F93A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9635298B1BEB671400F93A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taarak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9635298C1BEB671400F93A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taarak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9635298E1BEB671400F93A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaarakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taarak.app/Taarak";
+			};
+			name = Debug;
+		};
+		9635298F1BEB671400F93A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaarakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taarak.app/Taarak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963529661BEB671400F93A22 /* Build configuration list for PBXProject "Taarak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963529881BEB671400F93A22 /* Debug */,
+				963529891BEB671400F93A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9635298A1BEB671400F93A22 /* Build configuration list for PBXNativeTarget "Taarak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9635298B1BEB671400F93A22 /* Debug */,
+				9635298C1BEB671400F93A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9635298D1BEB671400F93A22 /* Build configuration list for PBXNativeTarget "TaarakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9635298E1BEB671400F93A22 /* Debug */,
+				9635298F1BEB671400F93A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963529631BEB671400F93A22 /* Project object */;
+}
